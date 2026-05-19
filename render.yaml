@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: githubinsightspro
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: build
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: REACT_APP_GITHUB_TOKEN
+        sync: false
