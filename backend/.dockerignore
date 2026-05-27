@@ -1,0 +1,26 @@
+# Build output (rebuilt inside the image)
+bin
+obj
+[Bb]in/
+[Oo]bj/
+
+# Git & IDE
+.git
+.gitignore
+.vs
+.vscode
+.idea
+*.user
+*.suo
+
+# Env & logs
+.env
+.env.*
+*.log
+
+# Docs
+**/*.md
+
+# OS
+.DS_Store
+Thumbs.db
